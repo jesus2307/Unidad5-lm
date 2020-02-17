@@ -1,0 +1,127 @@
+ejer1:
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <idioma>Español</idioma>
+        <prefijo-telefonico>+34</prefijo-telefonico>
+        <capital>
+            <nombre>Madrid</nombre>
+            <num.habitantes>6'5M</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Francia</nombre>
+        <idioma>Francés</idioma>
+        <prefijo-telefonico>+33</prefijo-telefonico>
+        <capital>
+            <nombre>París</nombre>
+            <num.habitantes>2'14M</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Portugal</nombre>
+        <idioma>Portugués</idioma>
+        <prefijo-telefonico>+351</prefijo-telefonico>
+        <capital>
+            <nombre>Lisboa</nombre>
+            <num.habitantes>504.718</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Alemania</nombre>
+        <idioma>Alemám</idioma>
+        <prefijo-telefonico>+49</prefijo-telefonico>
+        <capital>
+            <nombre>Berlín</nombre>
+            <num.habitantes>3'74M</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Inglaterra</nombre>
+        <idioma>Inglés</idioma>
+        <prefijo-telefonico>+44</prefijo-telefonico>
+        <capital>
+            <nombre>Londres</nombre>
+            <num.habitantes>8'9M</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Bélgica</nombre>
+        <idioma>Belga</idioma>
+        <prefijo-telefonico>+32</prefijo-telefonico>
+        <capital>
+            <nombre>Bruselas</nombre>
+            <num.habitantes>174.383</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Nigeria</nombre>
+        <idioma>Nigeriano</idioma>
+        <prefijo-telefonico>+234</prefijo-telefonico>
+        <capital>
+            <nombre>Abuya</nombre>
+            <num.habitantes>778.567</num.habitantes>
+        </capital>
+    </pais>
+
+     <pais>
+        <nombre>Jamaica</nombre>
+        <idioma>Jamaicano</idioma>
+        <prefijo-telefonico>+876</prefijo-telefonico>
+        <capital>
+            <nombre>Kingston</nombre>
+            <num.habitantes>1'243M</num.habitantes>
+        </capital>
+    </pais>
+</paises>
+
+
+ejer2:
+documento 1
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+<deportista>
+</deporte Atletismo>
+<nombre>Jesse Owens</nombre>
+<deportista>
+</deporte Natación>
+<nombre>Mark Spitz</nombre>
+</deportista>
+</deportistas>
+
+documento 2
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicula>
+<titulo>Con faldas y a lo loco</titulo>
+<director>Billy Wilder</director>
+<director>Leo McCarey</director>
+<titulo>Sopa de ganso</titulo>
+<autor>barto</autor>
+</pelicula>
+
+documento 3
+<comandos>
+<comando>
+<nombre>Jack O'Hara</nombre>
+<alias>Boina verde</alias>
+<pais>Irlanda</pais>
+<graduacion>Sargento</graduacion>
+<nombre >Sir Francis T. Woolridge</nombre>
+<pais>Inglaterra</pais>
+<graduacion>Soldado</graduacion>
+<nombre>James Blackwood</nombre>
+<alias>Marine</alias>
+<pais>Australia<pais>
+<graduacion>Soldado</graduacion>
+<nombre>Thomas Hancock</nombre>
+<alias>Zapador</alias>
+<pais>Inglaterra</pais>
+<graduacion>Soldado</graduacion>
+</comando>
+</comandos>*/
