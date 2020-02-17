@@ -1,0 +1,77 @@
+ejer1:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos SYSTEM
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT posicion (por, dfc,mc,dc)>
+<!ELEMENT jugador (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<equipos>
+    <equipo>
+        <nombre>Ral Madrid</nombre>
+        <ciudad>Marid</ciudad>
+        <entrenador>Zizu</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>Bencema</nombre>
+                <posicion>dc</posicion>
+                <nacionalidad>frances</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Hazard</nombre>
+                <posicion>dc</posicion>
+                <nacionalidad>berlga</nacionalidad>
+            </jugador>
+    </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Barcelona.F.C</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugador>
+            <nombre>Messi</nombre>
+            <posicion>dc</posicion>
+            <nacionalidad>argentino</nacionalidad>
+        </jugador>
+        <jugador>
+                <nombre>Grizman</nombre>
+                <posicion>dc</posicion>
+                <nacionalidad>frances</nacionalidad>
+            </jugador>
+    </equipo>
+</equipos>
+
+
+ejer2:
+<?xml version="1.0" encoding="UTF-8"?>
+<figuras>
+<figura plana>
+    <nombre>cuadrado</nombre>
+    <lados >4</lados>
+</figura>
+<figura plana>
+    <nombre>triángulo</nombre>
+    <lados>3</lados>
+</figura>
+<figura tridimensional>
+    <nombre>cubo</nombre>
+    <aristas>12</aristas>
+    <caras >6</caras>
+</figura>
+</figuras>
+Documento 2
+(Puede ser necesario crear nuevas etiquetas o atributos)
+<?xml version="1.0" encoding="UTF-8"?>
+    <triangulo>
+        <base>3</base>
+        <altura>3</altura>
+    </triangulo>
+
+Documento 3
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa>
+    <nombre>firefox</nombre>
+    <licencia>gpl</licencia>
+    <programa/>
+</programas>

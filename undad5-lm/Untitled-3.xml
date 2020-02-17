@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marcadores SYSTEM "Untitled-3.dtd">
+<tabla>
+    <lenguaje>
+        <nombre>Java</nombre>
+        
+    </lenguaje>
+    <autor>
+        <nombre>Kevin Mitnick</nombre>
+    </autor>
+    <fecha>
+        <nombre>1991</nombre>
+    </fecha>  
+    <contenido>
+        <nombre>
+            <![CDATA[
+            public class HolaMundo {
+            public static void main(String[] args) {
+            System.out.println("Hola Mundo");
+            }
+            }
+            ]]>
+        </nombre>
+    </contenido>
+</tabla>

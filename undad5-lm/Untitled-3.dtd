@@ -1,0 +1,5 @@
+<!ELEMENT lenguaje (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT marcadores (pagina)*>
