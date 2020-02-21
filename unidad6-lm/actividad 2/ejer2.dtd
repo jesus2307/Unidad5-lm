@@ -1,0 +1,3 @@
+<!ELEMENT filmoteca (pelicula* | no-hay-peliculas)>
+<!ELEMENT pelicula (titulo, anyo, actores*)>
+<!ELEMENT actores (actor | ningun-actor)>

@@ -1,0 +1,4 @@
+<!ELEMENT lista (disco* | no-hay-peliculas)>
+<!ELEMENT disco (artista, albun)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT albun (#PCDATA) >

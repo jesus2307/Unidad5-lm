@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email[
+<!ELEMENT email (de, para, asunto, contenido)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT asunto(#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+]>
+
+<email>
+    <de>ana</de>
+    <para>iker</para>
+    <asunto>saludo</asunto>
+    <contenido>hola</contenido>
+</email>

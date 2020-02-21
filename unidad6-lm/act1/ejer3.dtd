@@ -1,0 +1,4 @@
+<!ELEMENT tautomovil (datos, especificaciones,motor)>
+<!ELEMENT datos (marca, modelo, anyo)>
+<!ELEMENT especificacione (longitud, traccion,motor)>
+<!ELEMENT motor (clilindros, cc, cv)>

@@ -1,0 +1,4 @@
+<!ELEMENT personajes (personaje*)>
+<!ELEMENT personaje (nombre, nacionalidad, altura, peso,grupo_sanguineo, datos_personales*)>
+<!ELEMENT datos_personales (aficion | aversion)>
+
