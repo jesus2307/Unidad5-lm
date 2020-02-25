@@ -9,8 +9,8 @@
 <!ELEMENT apellidos (#PCDATA)>
 ]>
 <empleados>
-    <empleado>
-         <nombre id="l22" seccion="desarrollo">Fernando</nombre>
-         <apellido id="ls3434" seccion="desarrollo">">Lopez Sanchez</apllido>
+    <empleado id="ls3434" seccion="desarrollo">
+         <nombre >Fernando</nombre>
+         <apellido>">Lopez Sanchez</apellido>
     </empleado>
 </empleados>

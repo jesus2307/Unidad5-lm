@@ -8,7 +8,7 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT empelados(empleado)>
 <!ELEMENT empleado (nombre)>
-<!ATTLIST id-departamento id-departamento  CDATA #REQUIRED id ID #REQUIRED>
+<!ATTLIST empleado id-departamento  CDATA #REQUIRED id ID #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 ]>
 
@@ -28,7 +28,7 @@
          <empleado id="empleado-2" id-departamento="dpto-2">
         <nombre>Dean Keaton</nombre>
         </empleado>
-            <empleado id="empleado-3">
+        <empleado id="empleado-3">
          <nombre>Dean Keaton</nombre>
         </empleado>
     </empleados>
