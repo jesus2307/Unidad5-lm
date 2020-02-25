@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa[
+<!ELEMENT empresa (empresa*)>
+<!ELEMENT departamentos(departamento)>
+<!ELEMENT departamento (nombre)>
+<!ATTLIST ubicacion ubicacion CDATA #REQUIRED id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empelados(empleado)>
+<!ELEMENT empleado (nombre)>
+<!ATTLIST id-departamento id-departamento  CDATA #REQUIRED id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+]>
+
+<empresa>
+    <departamentos>
+        <departamento id="dpto-1" ubicacion="planta-0">
+          <nombre>I+D</nombre>
+        </departamento>
+         <departamento id="dpto-2" ubicacion="planta-1">
+         <nombre>Contabilidad</nombre>
+        </departamento>
+    </departamentos>
+    <empleados>
+        <empleado id="empleado-1" id-departamento="dpto-1">
+            <nombre>Fred Fenster</nombre>
+        </empleado>
+         <empleado id="empleado-2" id-departamento="dpto-2">
+        <nombre>Dean Keaton</nombre>
+        </empleado>
+            <empleado id="empleado-3">
+         <nombre>Dean Keaton</nombre>
+        </empleado>
+    </empleados>
+</empresa>

@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccion[
+<!ELEMENT coleccion (peliculas,actores)>
+<!ELEMENT peliculas(pelicula)>
+<!ELEMENT pelicula id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT actores(actor)>
+<!ELEMENT actor (#PCDATA)>
+<!ATTLIST id-pelicula peliculas  CDATA #REQUIRED>
+]>
+
+<coleccion>
+    <peliculas>
+        <pelicula id="p01">Infiltrados</pelicula>
+        <pelicula id="p02">El Lobo de Wall-Street</pelicula>
+        <pelicula id="p03">Casino</pelicula>
+        <pelicula id="p04">El Cabo del miedo</pelicula>
+        <pelicula id="p05">Sicario</pelicula>
+        <pelicula id="p06">La chica del tren</pelicula>
+    </peliculas>
+    <actores>
+        <actor peliculas="p01 p02">Leonardo DiCaprio</actor>
+        <actor peliculas="p03 p04">Robert de Niro</actor>
+        <actor peliculas="p05 p06">Emily Blunt</actor>
+    </actores>
+</coleccion>
