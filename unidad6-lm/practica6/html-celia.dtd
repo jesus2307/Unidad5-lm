@@ -1,0 +1,24 @@
+<!ENTITY % atributos_comunes "id ID #REQUIRED clase CDATA #IMPLIED estilo CDATA #IMPLIED titulo CDATA #IMPLIED pais idioma (ES | EN | DE | PO | FR | CN) "ES" #REQUIRE <!ATTLIST tipo dir (iad | dai) "iad"#REQUIRE">
+<!ENTITY % atributos_cuerpo "nombre CDATA #IMPLIED contenido CDATA #IMPLIED ">
+<!ENTITY % atributos_comunes "clase CDATA #IMPLIED estilo CDATA #IMPLIED titulo CDATA #IMPLIED">
+
+<!ELEMT html-celia (cabecera,cuerpo)>
+<!ELEMT cabecera (titulo,metadato,nombre,contenido)> 
+<!ATTLIST seccion %atributos_comunes;>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT  (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMT cuerpo (parrafo, negrita,cursiva,nl,imagene,enlace)*>
+<!ATTLIST parrafo %atributos_comunes>
+<!ELEMENT negrita (#PCDATA)>
+<!ELEMENT cursiva (#PCDATA)>
+<!ELEMENT nl (#PCDATA)>
+<!ELEMENT imagen (ruta,alt,ancho,alto)>
+<!ELEMENT ruta CDATA (#REQUIRED)>
+<!ELEMENT alt CDATA (#REQUIRED)>
+<!ELEMENT ancho (#PCDATA)>
+<!ELEMENT alto (#PCDATA)>
+<!ELEMENT enlace (destino,target)>
+<!ELEMENT destino CDATA (#REQUIRED)>
+<!ELEMENT target (#PCDATA)>

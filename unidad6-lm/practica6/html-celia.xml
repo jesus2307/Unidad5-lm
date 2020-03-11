@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html-celia SYSTEM "html-celia.dtd">
+<html-celia>
+    <cabecera>
+        <titulo>Mi página</titulo>
+        <metadato nombre="autor" contenido="profesor"/>
+    </cabecera>
+    <cuerpo>
+        <negrita>HTML versi&oacento;n Celia Viñas</negrita>
+        <nl/>
+        <parrafo>
+        <enlace destino="http://iescelia.org/web">Web del instituto</enlace>
+        </parrafo>
+        <parrafo idioma="cn">老师在戏弄你</parrafo>
+        <imagen ruta="captura.png" alt="Imagen de ejemplo"/>
+    </cuerpo>
+</html-celia>
