@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE textos[
+<!ELEMENT catalogo (libro, disco)>
+<!ELEMENT libro (id, titulo, anyo, autor,isbn)>
+<!ELEMENT disco (id, titulo, anyo, artista)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ATTLIST libro formato (epub | papel | mp3 | vinilo | cd) >
+<!ATTLIST disco formato (epub | papel | mp3 | vinilo | cd) >
+]>
+<vehiculos>
+    <coche combustible="electrico">
+        <motor>1600cc</motor>
+        <ruedas>4</ruedas>
+        <marca>seat</marca>
+    <modelo>león</modelo>
+    </coche>
+        <moto combustible="gasolina">
+        <motor>600cc</motor>
+        <ruedas>2</ruedas>
+        <marca>kawasaki</marca>
+        <modelo>ninja</modelo>
+    </moto>
+    <camion combustible="diesel">
+        <motor>4000cc</motor>
+        <ruedas>6</ruedas>
+        <marca>pegaso</marca>
+        <modelo>seiya</modelo>
+    </camion>
+</vehiculos>

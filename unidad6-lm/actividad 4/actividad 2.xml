@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensaje [
+<!ENTITY c "V22">
+<!ENTITY c2 "V23">
+<!ENTITY d "Sí">
+<!ENTITY d2 "Sí">
+<!ENTITY o "New York">
+<!ENTITY des "Chicago">
+<!ENTITY des2 "Miami">
+<!ENTITY h "9:30">
+<!ENTITY h2 "10:15">
+<!ENTITY hl "11:30">
+<!ENTITY hl "11:15">
+<!ENTITY e "R">
+<!ENTITY e1 "c">
+<!ENTITY e2 "e">
+
+<!ELEMENT panel (codigo, diario, origen, destino, hora-salida, hora-llegada, estado)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT diario (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora-salida (#PCDATA)>
+<!ELEMENT hora-llegada (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>]>
+<panel>
+    <codigo>&c;</codigo>
+    <diario>&d;</diario>
+    <origen>&o;</origen>
+    <destino>&des;</destino>
+    <hora-salida>&h;</hora-salida>
+    <hora-llegada>&hl;</hora-llegada>
+    <estado>&e;</estado>
+</panel>
+<panel>
+        <codigo>&c2;</codigo>
+        <diario>&d2;</diario>
+        <origen>&o;</origen>
+        <destino>&des2;</destino>
+        <hora-salida>&h2;</hora-salida>
+        <hora-llegada>&hl2;</hora-llegada>
+        <estado>&e1;</estado>
+    </panel>

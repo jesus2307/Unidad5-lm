@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE textos[
+<!ELEMENT catalogo (libro, disco)>
+<!ELEMENT libro (id, titulo, anyo, autor,isbn)>
+<!ELEMENT disco (id, titulo, anyo, artista)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT artista (#PCDATA)>
+<!ATTLIST libro formato (epub | papel | mp3 | vinilo | cd) >
+<!ATTLIST disco formato (epub | papel | mp3 | vinilo | cd) >
+]>
+<catalogo>
+    <libro formato="epub">
+        <id>L001</id>
+        <titulo>Cien años de Soledad</titulo>
+        <anyo>1979</anyo>
+        <autor>Gabriel García Marquez</autor>
+        <isbn>12344456</isbn>
+    </libro>
+    <disco formato="mp3">
+        <id>d01</id>
+        <titulo>Nevermind</titulo>
+        <anyo>1991</anyo>
+        <artista>Nirvana</artista>
+    </disco>
+    <libro formato="papel">
+        <id>L002</id>
+        <titulo>Olvidado Rey Gudú</titulo>
+        <anyo>1983</anyo>
+        <autor>Ana María García Matute</autor>
+        <isbn>12344456</isbn>
+    </libro>
+    <disco formato="mp3">
+        <id>d02</id>
+        <titulo>I</titulo>
+        <anyo>1969</anyo>
+        <artista>Led Zeppelin</artista>
+    </disco>
+</catalogo>

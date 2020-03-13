@@ -1,0 +1,9 @@
+<!ENTITY fr "profesor@gmail.com">
+<!ENTITY t "manolo@gmail.com">
+<!ENTITY sbj "Bienvenido/a al módulo de Lenguanes de Marcas curso 2019-20">
+<!ENTITY crp "Estimado alumno/a. que seas bienvenido y tengas un buen curso 2019-20">
+<!ELEMENT mensaje (from, to, subjet, cuerpo)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
