@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html-celia SYSTEM "curriculum.dtd">
+<curri>
+    <datos-personales>
+        <nombre></nombre>
+        <apellido></apellido>
+        <fecha></fecha>
+        <lugar-de-nacimiento></lugar-de-nacimiento>
+        <nacionalidad></nacionalidad>
+        <nif></nif>
+    </datos-personales>
+    <datos-contazto>
+        <tipo-via></tipo-via>
+        <nombre-via></nombre-via>
+        <numero></numero>
+        <portal></portal>
+        <email></email>
+        <tlf-fijo></tlf-fijo>
+        <tlf-movil></tlf-movil>
+    </datos-contazto>
+    <formacion>
+        <nombre></nombre>
+        <lugar></lugar>
+        <fecha-ini></fecha-ini>
+        <fecha-fin></fecha-fin>
+        <estado></estado>
+    </formacion>
+    <idiomas>
+        <idioma></idioma>
+        <materno></materno>
+    </idiomas>
+    <experiencia-laboral>
+        <puesto-dese></puesto-dese>
+        <nombre-emp></nombre-emp>
+        <fecha-ini></fecha-ini>
+        <fecha-fin></fecha-fin>
+    </experiencia-laboral>
+    <datos-adicionales>
+        <libre></libre>
+    </datos-adicionales>
+</curri>

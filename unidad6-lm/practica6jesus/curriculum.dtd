@@ -1,0 +1,37 @@
+<!ELEMT curri (datos-personales, datos-contazto, formacion,idiomas, experiencia-laboral, datos-adicionales)>
+<!ELEMENT datos-personales (nombre, apellido, fecha, lugar-de-nacimiento, nacionalidad, nif)>
+<!ELEMENT datos-personales (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT lugar-de-nacimiento (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMT datos-contazto (tipo-via, nombre-via, numero, portal, email, tlf-fijo, tlf-movil)>
+<!ELEMENT datos-contazto (#PCDATA)>
+<!ELEMENT tipo-via (#PCDATA)>
+<!ELEMENT nombre-via (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT portal (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tlf-fijo (#PCDATA)>
+<!ELEMENT tlf-movil (#PCDATA)>
+<!ELEMENT formacion (nombre, lugar, fecha-ini, fecha-fin, estado)>
+<!ELEMENT formacion (#REQUIRED)>
+<!ELEMENT nombre (#REQUIRED)>
+<!ELEMENT lugar (#REQUIRED)>
+<!ELEMENT fecha-ini (#PCDATA)>
+<!ELEMENT fecha-fin (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT idiomas (idioma,materno)>
+<!ELEMENT idiomas (#REQUIRED)>
+<!ELEMENT idioma (#REQUIRED)>
+<!ELEMENT materno (#PCDATA)>
+<!ELEMENT experiencia-laboral (puesto-dese ,nombre-emp, fecha-ini, fecha-fin)>
+<!ELEMENT experiencia-laboral (#REQUIRED)>
+<!ELEMENT puesto-dese (#REQUIRED)>
+<!ELEMENT nombre-emp (#PCDATA)>
+<!ELEMENT fecha-ini (#PCDATA)>
+<!ELEMENT fecha-fin (#PCDATA)>
+<!ELEMENT datos-adicionales (libre)>
+<!ELEMENT datos-adicionales (#PCDATA)>
+<!ELEMENT libre (#PCDATA)>
